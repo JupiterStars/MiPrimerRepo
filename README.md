@@ -1,2 +1,8 @@
 # MiPrimerRepo
 Mi Primer repositorio
+
+mis primeros cambios en github
+y esta es la segunda
+
+
+
