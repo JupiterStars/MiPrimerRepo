@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/MiPrimerRepo/probando/probando.csproj": {}
+    "/home/cosmic/MiPrimerRepo/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/MiPrimerRepo/probando/probando.csproj": {
+    "/home/cosmic/MiPrimerRepo/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/MiPrimerRepo/probando/probando.csproj",
+        "projectUniqueName": "/home/cosmic/MiPrimerRepo/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/MiPrimerRepo/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/MiPrimerRepo/probando/obj/",
+        "projectPath": "/home/cosmic/MiPrimerRepo/probando/probando.csproj",
+        "packagesPath": "/home/cosmic/.nuget/packages/",
+        "outputPath": "/home/cosmic/MiPrimerRepo/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/cosmic/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,16 +32,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
